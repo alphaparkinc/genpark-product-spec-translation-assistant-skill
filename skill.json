@@ -1,0 +1,29 @@
+{
+  "name": "genpark-product-spec-translation-assistant-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Localize specs metrics to target languages.",
+  "author": "genpark",
+  "category": "merchandising",
+  "tags": [
+    "translation",
+    "specs"
+  ],
+  "inputs": {
+    "dimensions": {
+      "type": "object"
+    },
+    "source_language": {
+      "type": "string"
+    },
+    "target_language": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "translated_specifications": {
+      "type": "object"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
